@@ -25,6 +25,60 @@
     ]
   },
   {
+    "abstract": "customized_wand",
+    "name": { "str": "Basic Wand" },
+    "type": "TOOL",
+    "weight": "230 g",
+    "volume": "500 ml",
+    "price": "400 USD",
+    "bashing": 3,
+    "to_hit": 1,
+    "material": [ "wood" ],
+    "symbol": "|",
+    "color": "brown",
+    "flags": [ "BELT_CLIP", "NONCONDUCTIVE", "MAGIC_FOCUS" ],
+    "charges_per_use": 1,
+    "ammo": [ "crystallized_mana" ],
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE_WELL",
+        "holster": true,
+        "max_contains_volume": "20 L",
+        "max_contains_weight": "20 kg",
+        "item_restriction": [ "small_mana_crystal" ]
+      }
+    ]
+  },
+  {
+    "name":{"str": "Test Mod Wand"},
+    "type": "TOOLMOD",
+    "category": "spare_parts",
+    "description": "A test",
+    "weight": "230 g",
+    "volume": "500 ml",
+    "price": 400,
+    "bashing": 3,
+    "to_hit": 1,
+    "material": [ "wood" ],
+    "symbol": "|",
+    "color": "brown",
+    "acceptable_ammo": [ "battery" ],
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE_WELL",
+        "holster": true,
+        "max_contains_volume": "20 L",
+        "max_contains_weight": "20 kg",
+        "item_restriction": [ "light_battery_cell" ]
+      }],
+    "magazine_adaptor": [
+      [
+        "crystallized_mana",
+        ["small_mana_crystal" ]
+      ]    
+      ]
+  },
+  {
     "abstract": "disp_wand",
     "name": { "str": "Disposable Wand" },
     "type": "TOOL",
